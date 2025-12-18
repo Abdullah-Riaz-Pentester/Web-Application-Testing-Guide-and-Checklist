@@ -39,9 +39,9 @@ The methodology is divided into the following 12 phases, ensuring a logical and 
 7.  **Phase 7: Input Validation Testing (WSTG-INPV)**: Discover vulnerabilities like XSS, SQLi, and Command Injection by treating all user input as untrusted.
 8.  **Phase 8: Error Handling Testing (WSTG-ERRH)**: Verify that the application handles errors gracefully without leaking sensitive information.
 9.  **Phase 9: Business Logic Testing (WSTG-BUSL)**: Identify flaws by abusing intended functionality in unintended ways.
-10. **Phase 10: Client-Side Testing (WSTG-CLNT)**: Identify vulnerabilities that execute in the client's browser, such as DOM XSS and Clickjacking[cite: 1666, 1667].
-11. **Phase 11: Weak Cryptography Testing (WSTG-CRYP)**: Test cryptographic implementations to ensure the confidentiality and integrity of data[cite: 2722].
-12. **Phase 12: API Testing (WSTG-APIT)**: Focus on API endpoints, which are often less protected than the main user interface[cite: 2493, 2494].
+10. **Phase 10: Client-Side Testing (WSTG-CLNT)**: Identify vulnerabilities that execute in the client's browser, such as DOM XSS and Clickjacking.
+11. **Phase 11: Weak Cryptography Testing (WSTG-CRYP)**: Test cryptographic implementations to ensure the confidentiality and integrity of data.
+12. **Phase 12: API Testing (WSTG-APIT)**: Focus on API endpoints, which are often less protected than the main user interface.
 
 ---
 
